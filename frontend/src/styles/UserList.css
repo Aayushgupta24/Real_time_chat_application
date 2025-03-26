@@ -1,0 +1,59 @@
+.user-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+}
+
+.user-list h3 {
+    color: #8696a0;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #e9edef;
+    transition: background-color 0.2s;
+}
+
+.user-item:hover {
+    background-color: #2a3942;
+}
+
+.user-item.selected {
+    background-color: #2a3942;
+}
+
+.status-indicator {
+    font-size: 10px;
+}
+
+.status-indicator.online {
+    color: #00a884;
+}
+
+.status-indicator.offline {
+    color: #8696a0;
+}
+
+.username {
+    font-size: 14px;
+}
+
+.loading {
+    color: #8696a0;
+    text-align: center;
+    padding: 20px;
+}
+
+.error {
+    color: #f15c6d;
+    text-align: center;
+    padding: 20px;
+}

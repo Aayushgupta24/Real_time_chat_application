@@ -1,0 +1,69 @@
+.chat-layout {
+    height: 100vh;
+    display: flex;
+    background-color: #111b21;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #202c33;
+    border-right: 1px solid #313d45;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-user-info {
+    padding: 16px;
+    background-color: #202c33;
+    border-bottom: 1px solid #313d45;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #e9edef;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chat-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #222e35;
+}
+
+.no-chat-selected {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8696a0;
+    font-size: 18px;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #e9edef;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-layout {
+        padding: 0;
+    }
+
+    .whatsapp-container {
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+
+
+
